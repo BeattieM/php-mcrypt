@@ -1,4 +1,12 @@
-php-mcrypt
+Description
+===========
+
+Requirements
+============
+
+Attributes
 ==========
 
-Installs the Mcrypt library for PHP. 
+Usage
+=====
+
