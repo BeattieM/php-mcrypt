@@ -1,6 +1,10 @@
-maintainer       "Example Com"
-maintainer_email "ops@example.com"
+maintainer       "Michael Beattie"
+maintainer_email "beattiem@knights.ucf.edu"
 license          "Apache 2.0"
-description      "Installs/Configures php-mcrypt"
+description      "Installs/Configures the mcrypt module for PHP"
 
 version          "0.1"
+
+supports 'ubuntu'
+
+recipe 'mcrypt', 'Installs/Configures the mcrypt module for PHP'
