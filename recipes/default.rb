@@ -19,7 +19,7 @@
 
 package "php-mcrypt" do
 	case node[:platform]
-	when "ubuntu"
+	when "ubuntu","debian"
 	  package_name "php5-mcrypt"
 	end
 	action :install
