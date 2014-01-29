@@ -16,13 +16,14 @@
 # limitations under the License.
 #
 
-package "php-mcrypt" do
-	case node[:platform]
-	when "ubuntu","debian"
-		include_recipe "php"
+case node[:platform]
+when "ubuntu","debian"
+	include_recipe "php"
+	
+	package "php-mcrypt" do
 	  package_name "php5-mcrypt"
+	  action :install
 	end
-	action :install
 end
 
 template "#{node['php']['ext_conf_dir']}/mcrypt.ini" do

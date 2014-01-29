@@ -6,7 +6,8 @@ description      "Installs/Configures the mcrypt module for PHP"
 
 version          "0.1"
 
-supports 'ubuntu','debian'
+supports 'ubuntu'
+supports 'debian'
 
 depends "php"
 
