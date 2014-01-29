@@ -1,6 +1,7 @@
+name             "php-mcrypt"
 maintainer       "Michael Beattie"
 maintainer_email "beattiem@knights.ucf.edu"
-license          "Apache 2.0"
+license          "MIT license"
 description      "Installs/Configures the mcrypt module for PHP"
 
 version          "0.1"
