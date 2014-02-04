@@ -4,7 +4,7 @@ maintainer_email "beattiem@knights.ucf.edu"
 license          "MIT license"
 description      "Installs/Configures the mcrypt module for PHP"
 
-version          "0.1"
+version          "1.0.0"
 
 supports 'ubuntu'
 supports 'debian'
