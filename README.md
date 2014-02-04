@@ -12,7 +12,7 @@ Cookbooks
 
 Usage
 =====
-To install Mcrypt add the "php-mcrypt recipe to your run list.
+To install Mcrypt add the php-mcrypt recipe to your run list.
 
 License and Author
 ==================
