@@ -18,7 +18,7 @@
 
 case node[:platform]
 when "ubuntu","debian"
-	include_recipe "php"
+	include_recipe "php::package"
 	
 	package "php-mcrypt" do
 	  package_name "php5-mcrypt"
